@@ -45,17 +45,50 @@ namespace DIO.Series
 
         private static void VisualizarSerie()
         {
-            throw new NotImplementedException();
+            Console.Write("Digite o id da série: ");
+            int indiceSerie = int.Parse(Console.ReadLine());
+
+            var serie = repositorio.RetornaPorId(indiceSerie);
+
+            Console.WriteLine(serie);
         }
 
         private static void ExcluirSerie()
         {
-            throw new NotImplementedException();
+            Console.Write("Digite o id da série: ");
+            int indeceSerie = int.Parse(Console.ReadLine());
+
+            repositorio.Exclui(indeceSerie);
         }
 
         private static void AtualizarSerie()
         {
-            throw new NotImplementedException();
+            Console.Write("Digite o id da série: ");
+            int indiceSerie = int.Parse(Console.ReadLine());
+
+            foreach (int i in Enum.GetValues(typeof(Genero)))
+            {
+                Console.WriteLine("{0} - {1}", i, Enum.GetName(typeof(Genero), i));
+            }
+            Console.Write("Digite o genero entre as opções acima: ");
+            int entradaGenero = int.Parse(Console.ReadLine());
+
+            Console.Write("Digite o Titulo da série: ");
+            string entradaTitulo = Console.ReadLine();
+
+            Console.Write("Digite o ano de inicio da série: ");
+            int entradaAno = int.Parse(Console.ReadLine());
+
+            Console.Write("Digite a descrição da serie: ");
+            string entradaDescricao = Console.ReadLine();
+
+            Serie atualizaSerie = new Serie(id: indiceSerie,
+                                            genero: (Genero)entradaGenero,
+                                            titulo: entradaTitulo,
+                                            ano: entradaAno,
+                                            descricao: entradaDescricao);
+
+            repositorio.Atualiza(indiceSerie, atualizaSerie);
         }
 
 
