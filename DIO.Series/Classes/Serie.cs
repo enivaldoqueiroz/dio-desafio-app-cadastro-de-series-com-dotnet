@@ -1,5 +1,5 @@
 using DIO.Series.Classes;
-using DIO.Series.Enum;
+using DIO.Series;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +16,8 @@ namespace DIO.Series
         private string Descricao { get; set; }
         private int Ano { get; set; }
 
+        private bool Excluido { get; set; }
+
         //Metodos
 
         public Serie(int id, Genero genero, string titulo, string descricao, int ano)
@@ -25,6 +27,7 @@ namespace DIO.Series
             this.Titulo = titulo;
             this.Descricao = descricao;
             this.Ano = ano;
+            this.Excluido = false;
         }
 
         public override string ToString()
@@ -43,9 +46,14 @@ namespace DIO.Series
             return this.Titulo;
         }
 
-        public int retornaI()
+        public int retornaId()
         {
             return this.Id;
+        }
+
+        public void Exclui()
+        {
+            this.Excluido = true;
         }
     }
 }

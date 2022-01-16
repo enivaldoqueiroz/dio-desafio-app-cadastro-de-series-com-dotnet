@@ -1,3 +1,4 @@
+using DIO.Series;
 using DIO.Series.Interfaces;
 
 namespace DIO.Series
@@ -13,25 +14,30 @@ namespace DIO.Series
 
         public void Exclui(int id)
         {
-            listaSerie.RemoveAt(id);
+            listaSerie[id].Exclui();
         }
 
         public void Insere(Serie entidade)
         {
-            throw new NotImplementedException();
+            listaSerie.Add(entidade);
         }
 
-        public List<Serie> List()
+        public List<Serie> Lista()
         {
-            throw new NotImplementedException();
+            return listaSerie;
         }
 
         public int ProximoId()
         {
-            throw new NotImplementedException();
+            return listaSerie.Count;
         }
 
         public Serie RetornaPorId(int id)
+        {
+            return (Serie)listaSerie[id];
+        }
+
+        List<Serie> IRepositorio<Serie>.List()
         {
             throw new NotImplementedException();
         }
