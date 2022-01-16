@@ -1,0 +1,15 @@
+D:\DIO\DECOLA-TECH-AVANADE\dio-desafio-app-cadastro-de-series-com-dotnet\DIO.Series\obj\Debug\net6.0\DIO.Series.csproj.AssemblyReference.cache
+D:\DIO\DECOLA-TECH-AVANADE\dio-desafio-app-cadastro-de-series-com-dotnet\DIO.Series\obj\Debug\net6.0\DIO.Series.GeneratedMSBuildEditorConfig.editorconfig
+D:\DIO\DECOLA-TECH-AVANADE\dio-desafio-app-cadastro-de-series-com-dotnet\DIO.Series\obj\Debug\net6.0\DIO.Series.AssemblyInfoInputs.cache
+D:\DIO\DECOLA-TECH-AVANADE\dio-desafio-app-cadastro-de-series-com-dotnet\DIO.Series\obj\Debug\net6.0\DIO.Series.AssemblyInfo.cs
+D:\DIO\DECOLA-TECH-AVANADE\dio-desafio-app-cadastro-de-series-com-dotnet\DIO.Series\obj\Debug\net6.0\DIO.Series.csproj.CoreCompileInputs.cache
+D:\DIO\DECOLA-TECH-AVANADE\dio-desafio-app-cadastro-de-series-com-dotnet\DIO.Series\bin\Debug\net6.0\DIO.Series.exe
+D:\DIO\DECOLA-TECH-AVANADE\dio-desafio-app-cadastro-de-series-com-dotnet\DIO.Series\bin\Debug\net6.0\DIO.Series.deps.json
+D:\DIO\DECOLA-TECH-AVANADE\dio-desafio-app-cadastro-de-series-com-dotnet\DIO.Series\bin\Debug\net6.0\DIO.Series.runtimeconfig.json
+D:\DIO\DECOLA-TECH-AVANADE\dio-desafio-app-cadastro-de-series-com-dotnet\DIO.Series\bin\Debug\net6.0\DIO.Series.dll
+D:\DIO\DECOLA-TECH-AVANADE\dio-desafio-app-cadastro-de-series-com-dotnet\DIO.Series\bin\Debug\net6.0\ref\DIO.Series.dll
+D:\DIO\DECOLA-TECH-AVANADE\dio-desafio-app-cadastro-de-series-com-dotnet\DIO.Series\bin\Debug\net6.0\DIO.Series.pdb
+D:\DIO\DECOLA-TECH-AVANADE\dio-desafio-app-cadastro-de-series-com-dotnet\DIO.Series\obj\Debug\net6.0\DIO.Series.dll
+D:\DIO\DECOLA-TECH-AVANADE\dio-desafio-app-cadastro-de-series-com-dotnet\DIO.Series\obj\Debug\net6.0\ref\DIO.Series.dll
+D:\DIO\DECOLA-TECH-AVANADE\dio-desafio-app-cadastro-de-series-com-dotnet\DIO.Series\obj\Debug\net6.0\DIO.Series.pdb
+D:\DIO\DECOLA-TECH-AVANADE\dio-desafio-app-cadastro-de-series-com-dotnet\DIO.Series\obj\Debug\net6.0\DIO.Series.genruntimeconfig.cache

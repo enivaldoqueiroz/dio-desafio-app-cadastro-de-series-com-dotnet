@@ -1,3 +1,5 @@
+using DIO.Series.Classes;
+using DIO.Series.Enum;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +11,7 @@ namespace DIO.Series
     {
         //Atrinbutos
 
-        private Generd Generd { get; set; }
+        private Genero Genero { get; set; }
         private string Titulo { get; set; }
         private string Descricao { get; set; }
         private int Ano { get; set; }
@@ -29,16 +31,16 @@ namespace DIO.Series
         {
             // Enviroment.NewLine https://docs.microsoft.com/en-us/dotnet/api/system.environment.newline?view-netcore-3.1
             string retorno = "";
-            retorno += "Genero: " + this.Genero + Enviroment.NewLine;
-            retorno += "Tilulo: " + this.Tilulo + Enviroment.NewLine;
-            retorno += "Descrição: " + this.Descricao + Enviroment.NewLine;
+            retorno += "Genero: " + this.Genero + Environment.NewLine;
+            retorno += "Tilulo: " + this.Titulo + Environment.NewLine;
+            retorno += "Descrição: " + this.Descricao + Environment.NewLine;
             retorno += "Ano de Inicio: " + this.Ano;
             return retorno;
         }
 
         public string retornaTitulo()
         {
-            return this.Tilulo;
+            return this.Titulo;
         }
 
         public int retornaI()
